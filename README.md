@@ -31,7 +31,7 @@ DEEPGRAM_API_KEY = 'YOUR_API_KEY'
 PATH_TO_FILE = 'some/file.wav'
 
 async def main():
-    '''Initializes the Deepgram SDK'''
+    # Initializes the Deepgram SDK
     deepgram = Deepgram(DEEPGRAM_API_KEY)
     # Open the audio file
     with open(PATH_TO_FILE, 'rb') as audio:
@@ -61,7 +61,7 @@ URL = 'http://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourlw_online_nonuk'
 # URL = 'http://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourfm'
 
 async def main():
-  '''Initializes the Deepgram SDK'''
+  # Initialize the Deepgram SDK
   deepgram = Deepgram(DEEPGRAM_API_KEY)
 
   # Create a websocket connection to Deepgram
